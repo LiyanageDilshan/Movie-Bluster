@@ -1,6 +1,6 @@
 package com.example.moviewatchapp.database.entities;
 
-import androidx.room.Entity;
+
 import androidx.room.ForeignKey;
 import androidx.room.PrimaryKey;
 import com.example.moviewatchapp.database.entities.User;

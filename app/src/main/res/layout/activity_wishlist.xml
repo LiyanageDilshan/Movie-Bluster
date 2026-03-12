@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#110808"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtWishlistHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Wishlist"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtEmptyWishlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No movies added yet."
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerWishlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

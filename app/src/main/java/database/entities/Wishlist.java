@@ -15,7 +15,7 @@ import com.example.moviewatchapp.database.entities.User;
 )
 public class Wishlist {
 
-    
+    @PrimaryKey(autoGenerate = true)
     public int id;
 
     public int userId;
